@@ -1,0 +1,26 @@
+[
+    {
+        "title": "红楼梦",
+        "author": "曹雪芹",
+        "dynasty": "清朝",
+        "genre": "世情小说"
+    },
+    {
+        "title": "西游记",
+        "author": "吴承恩",
+        "dynasty": "明朝",
+        "genre": "神魔小说"
+    },
+    {
+        "title": "水浒传",
+        "author": "施耐庵",
+        "dynasty": "元末明初",
+        "genre": "英雄传奇小说"
+    },
+    {
+        "title": "三国演义",
+        "author": "罗贯中",
+        "dynasty": "元末明初",
+        "genre": "历史演义小说"
+    }
+]
