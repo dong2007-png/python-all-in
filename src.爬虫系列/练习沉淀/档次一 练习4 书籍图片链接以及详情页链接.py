@@ -15,7 +15,7 @@ hreflist=[]
 pagelist=[]
 for book in books:
     picture=book.find("div",class_="image_container").find("img")
-    hreflist.append(picture.get("src"))
+    hreflist.append(picture.get("src.爬虫系列"))
     page=book.find("h3").find("a")
     pagelist.append(page.get("href"))
 print(hreflist)

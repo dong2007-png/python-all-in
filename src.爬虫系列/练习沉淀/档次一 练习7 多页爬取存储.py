@@ -25,7 +25,7 @@ for page in range(1,a+1):
             booknamelist.append(bookname)
             bookprice=book.find("p",class_="price_color").text
             bookpricelist.append(bookprice)
-            bookpicture=book.find("div",class_="image_container").find("a").find("img").get("src")
+            bookpicture=book.find("div",class_="image_container").find("a").find("img").get("src.爬虫系列")
             bookpicturelist.append(bookpicture)
             bookdetail=book.find("h3").find("a").get("href")
             bookdetaillist.append(bookdetail)

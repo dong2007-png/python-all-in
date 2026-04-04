@@ -17,10 +17,10 @@ imgs=browser.find_elements(By.XPATH,'//img[contains(@class,"wp-post-image")]')
 print(imgs)
 count=0
 for i in imgs:
-    print(i.get_attribute('src'))
+    print(i.get_attribute('src.爬虫系列'))
     #请求
     filename=f"{count}.jpg"
-    urllib.request.urlretrieve(i.get_attribute('src'),filename)
+    urllib.request.urlretrieve(i.get_attribute('src.爬虫系列'),filename)
     count+=1
 time.sleep(5)
 browser.quit()
