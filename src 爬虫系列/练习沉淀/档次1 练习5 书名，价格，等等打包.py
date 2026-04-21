@@ -21,7 +21,7 @@ for book in books:
     booknamelist.append(bookname)
     bookprice=book.find("p",class_="price_color").text
     bookpricelist.append(bookprice)
-    bookpicture=book.find("div",class_="image_container").find("a").find("img").get("src爬虫系列")
+    bookpicture=book.find("div",class_="image_container").find("a").find("img").get("src 爬虫系列")
     bookpicturelist.append(bookpicture)
     bookdetail=book.find("h3").find("a").get("href")
     bookdetaillist.append(bookdetail)
