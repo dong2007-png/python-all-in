@@ -1,0 +1,79 @@
+/*标签选择器*/
+span{
+    color:blue;
+    font-size: 20px;
+}
+/*类选择器*/
+.one{
+    color: red;
+}
+.two{
+    color: yellow;
+}
+
+/*id选择器*/
+#one{
+    color: green;
+}
+#two{
+    color: orange;
+}
+
+
+/*后代选择器*/
+.father p{
+    color: blue;
+}
+
+/*子代选择器(纯儿子)*/
+.father > span{
+    color: red;
+}
+
+/*伪类选择器(一般用于超链接)*/
+.baidu:link{
+        color: deeppink;
+
+}
+.baidu:visited{
+    color: blue;
+}
+/*重要鼠标悬停*/
+.baidu:hover{
+    color: yellow;
+    font-size: 60px;
+}
+
+.df{
+    width:500px;
+    height: 500px;
+    background-color: darkgrey;
+    display: flex;
+    /*主轴默认是横轴row*/
+    flex-direction: row;
+    /*内容居中*/
+    justify-content: space-between;
+    /*align-content: center;*/
+    gap:10px;
+}
+
+.no-one{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+}
+.no-two{
+    width:100px;
+    height: 100px;
+    background-color: yellow;
+}
+.no-three{
+    width:100px;
+    height: 100px;
+    background-color: orange;
+}
+
+
+
+
+

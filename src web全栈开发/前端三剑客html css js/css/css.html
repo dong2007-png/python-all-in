@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="cs.css">
+    <style>
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<!--内联样式-->
+<h1 style="color: blue"> 测试内联样式</h1>
+<!--内部样式-->
+<p>我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+<!--外部样式-->
+<span>我是span</span>
+<!--多重样式(了解)内联样式优先级最高，后边会覆盖前边，看head里边那个顺序，谁在后边显示谁-->
+<span >我是第二个span</span>
+
+
+<!--类选择器(常用)(一般是css用)-->
+<div>class="one">我是第一个 div</div>
+<div class="two">我是第二个 div</div>
+
+<!--id选择器（全局唯一）(一般是给js用的)-->
+<div id="one">我是第一个 div</div>
+<div id="two">我是第二个 div</div>
+
+<!--后代选择器-->
+<div class="father">
+     <span> div的儿子
+         <p>
+             我是p的子元素
+            <span>div的孙子</span>
+         </p>
+     </span>
+</div>
+
+<!--伪类选择器(一般用于超链接)-->
+<a class="baidu" href="https://www.baidu.com" target="_blank">百度链接</a>
+
+
+
+<!--布局，浮动(极其重要)-->
+<div class="df">
+    <div class="no-one"></div>
+    <div class="no-two"></div>
+    <div class="no-three"></div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
