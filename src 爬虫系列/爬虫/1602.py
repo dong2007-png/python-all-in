@@ -1,7 +1,7 @@
 from selenium.webdriver.edge.service import Service
 from selenium import webdriver
-import time
 from selenium.webdriver.common.by import By
+import time
 service=Service("msedgedriver.exe")
 browser=webdriver.Edge(service=service)
 time.sleep(3)
