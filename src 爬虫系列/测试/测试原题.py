@@ -9,8 +9,6 @@ import requests
 from lxml import etree
 import pandas as pd
 
-
-
 all_data = []
 page = [1,2,3,4]
 for i in page:
