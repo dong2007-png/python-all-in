@@ -1,0 +1,193 @@
+a{
+    color:white;
+    /*移除链接标签文本装饰线*/
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /*background-image: url("../static/images/header-img.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100vh;
+}
+.bg{
+    /*堆叠优先级*/
+    position: absolute;
+    z-index: -10;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+header{
+    background-color: rgba(17,17,17, .75);
+    height: 66px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: left;
+    font-size: 18px;
+    gap:10px;
+}
+
+.audio{
+    margin-left: 30px;
+    width:50px;
+    height: 50px;
+    /*鼠标悬停变成手掌*/
+    cursor: pointer;
+}
+
+.logo{
+    width: 362px;
+}
+
+.nav{
+    width:860px;
+    display:flex;
+    gap:20px;
+}
+.bar{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.bar>a{
+    display:flex;
+    align-items: center;
+    gap:10px;
+
+}
+.nav-item:hover{
+    /*水平偏移和垂直偏移，阴影半径（半径越大阴影越模糊），颜色*/
+    text-shadow:  0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+.nav.checked{
+    box-shadow:  0 0 10px #69e0ff;
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;;
+}
+.nav-item{
+    border-top: 1px solid rgba(255,255,255,.5);
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+.zhaohuan{
+    display: flex;
+    flex-direction: column;
+    /*绝对定位相对于他爹*/
+    position: absolute;
+    right:30px;
+}
+
+.zhaohuan  img{
+    width:161px;
+    height: 152px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    margin-top:650px;
+    margin-left: 20px;
+    color:white;
+}
+
+.left a{
+    text-decoration: underline;
+}
+
+
+.middle{
+    margin-top:570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bi-play-fill{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+
+.download{
+    display: flex;
+    gap:7px;
+    margin-top: 10px;
+}
+.download-middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.next{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    margin-top: 600px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
